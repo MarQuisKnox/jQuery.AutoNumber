@@ -26,7 +26,7 @@
 
         // action!
         return $(this).each(function( key, value ) {
-        	$( value ).find( options.target ).html( key + 1 );
+        	$( value ).find( options.target + ':visible' ).html( key + 1 );
         });
  
     };
