@@ -1,6 +1,15 @@
 # AutoNumber
 A jQuery plugin to auto-number elements
 
+# Usage
+```javascript
+// START:	Auto-Number
+$('#parentElement li').autonumber({
+    target: '.badge'
+});
+// END:		Auto-Number
+```
+
 # References
 * http://jquery-howto.blogspot.de/2013/09/jquery-add-table-row-count-column.html
 * https://learn.jquery.com/plugins/basic-plugin-creation
